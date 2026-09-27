@@ -20,9 +20,11 @@
 
 		<input type="submit" value="Enviar">
 
-		<?php if ($missatge !== ''): ?>
-			<p><?= htmlspecialchars($missatge, ENT_QUOTES, 'UTF-8') ?></p>
-		<?php endif; ?>
+		<?php
+		if ($missatge !== '') {
+	    	echo "<p>$missatge</p>";
+		}
+		?>
 
 	</form>
 </body>
