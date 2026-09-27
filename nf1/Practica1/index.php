@@ -23,6 +23,7 @@
 		<?php if ($missatge !== ''): ?>
 			<p><?= htmlspecialchars($missatge, ENT_QUOTES, 'UTF-8') ?></p>
 		<?php endif; ?>
+
 	</form>
 </body>
 </html>
